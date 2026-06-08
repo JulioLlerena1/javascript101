@@ -53,10 +53,10 @@ for(let framework of frameworks){
     frameworkName: partes[0].trim(),
     releaseDate: partes[1].trim(),
     usersName: partes[2].trim(),
-    popularityPercentage: partes[3].trim()
-
-  }
+    popularityPercentage: partes[3].trim(),
+    
+  };
 
   addRow(frameworkObj, "data-frameworks");
 
-}
+};
