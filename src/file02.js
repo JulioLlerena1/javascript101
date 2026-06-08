@@ -50,10 +50,10 @@ for(let framework of frameworks){
 
   var frameworkObj = {
 
-    frameworkName = partes[0].trim(),
-    releaseDate = partes[1].trim(),
-    usersName = partes[2].trim(),
-    popularityPercentage = partes[3].trim()
+    frameworkName: partes[0].trim(),
+    releaseDate: partes[1].trim(),
+    usersName: partes[2].trim(),
+    popularityPercentage: partes[3].trim()
 
   }
 
