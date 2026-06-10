@@ -46,16 +46,14 @@ const frameworks = [
 
 for(let framework of frameworks){
 
-  let partes = framework.split("|");
+  const partes = framework.split("|");
 
-  var frameworkObj = {
+  var frameworkObj = new Object();
 
-    frameworkName: partes[0].trim(),
-    releaseDate: partes[1].trim(),
-    usersName: partes[2].trim(),
-    popularityPercentage: partes[3].trim(),
-    
-  };
+  frameworkObj.frameworkName = partes[0].trim();
+  frameworkObj.releaseDate = partes[1].trim();
+  frameworkObj.usersName = partes[2].trim();
+  frameworkObj.popularityPercentage = partes[3].trim();
 
   addRow(frameworkObj, "data-frameworks");
 
